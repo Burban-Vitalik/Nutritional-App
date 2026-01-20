@@ -5,13 +5,20 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
+    "@nestjs/schematics": "^11.0.0",
+    "@nestjs/testing": "^11.0.0",
     "@nx/js": "22.3.3",
+    "@nx/nest": "^22.3.3",
     "@nx/next": "^22.3.3",
+    "@nx/node": "22.3.3",
+    "@nx/web": "22.3.3",
+    "@nx/webpack": "22.3.3",
     "@nx/workspace": "22.3.3",
     "@swc-node/register": "~1.9.1",
     "@swc/cli": "~0.6.0",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/node": "20.19.9",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "10.4.13",
@@ -21,12 +28,19 @@
     "sass": "^1.97.2",
     "tailwindcss": "3.4.3",
     "tslib": "^2.3.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "axios": "^1.6.0",
     "lucide-react": "^0.562.0",
     "next": "~16.0.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
   }
 }
